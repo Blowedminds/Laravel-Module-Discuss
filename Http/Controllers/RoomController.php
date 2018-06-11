@@ -1,13 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Discuss;
+namespace App\Modules\Discuss\Http\Controllers;
 
-use App\Article;
+use App\Modules\Core\Article;
 use App\Events\MessageCreatedEvent;
 use App\Events\MessageDeletedEvent;
-use App\RoomMessage;
-use function foo\func;
-use Illuminate\Http\Request;
+use App\Modules\Core\RoomMessage;
 use App\Http\Controllers\Controller;
 
 class RoomController extends Controller
